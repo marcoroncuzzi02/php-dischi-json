@@ -10,8 +10,10 @@
 <body>
 
     <header>
-        <h1>Discogs</h1>
+        <h1 class="text-center">DISCOGS</h1>
     </header>
+
+    <hr>
 
     <?php
                 
@@ -19,16 +21,30 @@
 
         $dischi = json_decode($string);
 
-        var_dump($dischi);
+        // var_dump($dischi);
 
     ?>
 
     <main>
         <div class="container text-center">
-            <div class="row mt-2">
+            <div class="row mt-2 row-cols-1 row-cols-md-3 g-3">
                 <?php
                     foreach($dischi as $disco) {
-                        echo "<div class='col'> $disco </div>";
+                        echo "
+                        <div class='col-3 '>
+                            <div class='card h-100'>
+                                <img src='{$disco->cover}' class='img-fluid object-fit-cover' style='height: 300px; width: 100%;' alt='{$disco->titolo}'>
+                                <div class='card-body'>
+                                    <h5 class='card-title'>{$disco->titolo}</h5>
+                                    <p class='card-text'>
+                                        Artista: {$disco->artista}<br>
+                                        Anno: {$disco->anno}<br>
+                                        Genere: {$disco->genere}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        ";
                     }
                 ?>
             </div>

@@ -1,30 +1,44 @@
 [
   {
-    "titolo": "ciao",
-    "artista": "ciao",
-    "cover": "ciao",
-    "anno": "ciao",
-    "genere": "ciao"
+    "titolo": "IGOR",
+    "artista": "Tyler the Creator",
+    "cover": "https://redwoodbark.org/wp-content/uploads/2019/05/ALBUM-COVER.png",
+    "anno": "2019",
+    "genere": "Hip-Hop"
   },
   {
-    "titolo": "ciao",
-    "artista": "ciao",
-    "cover": "ciao",
-    "anno": "ciao",
-    "genere": "ciao"
+    "titolo": "Flower Boy",
+    "artista": "Tyler the Creator",
+    "cover": "http://merrimacknewspaper.com/wp-content/uploads/2018/02/FLOWERBOY.jpg",
+    "anno": "2017",
+    "genere": "Hip-Hop"
   },
   {
-    "titolo": "ciao",
-    "artista": "ciao",
-    "cover": "ciao",
-    "anno": "ciao",
-    "genere": "ciao"
+    "titolo": "Call Me If You Get Lost",
+    "artista": "Tyler the Creator",
+    "cover": "https://therabbitsociety.com/wp-content/uploads/2021/06/CMIYGL-header.jpg",
+    "anno": "2023",
+    "genere": "Hip-Hop"
   },
   {
-    "titolo": "ciao",
-    "artista": "ciao",
-    "cover": "ciao",
-    "anno": "ciao",
-    "genere": "ciao"
+    "titolo": "Goblin",
+    "artista": "Tyler the Creator",
+    "cover": "https://i.pinimg.com/originals/5b/8f/ee/5b8fee4874eb34150f7fbe9b4570f4e1.jpg",
+    "anno": "2013",
+    "genere": "Hip-Hop"
+  },
+   {
+    "titolo": "Cherry Bomb",
+    "artista": "Tyler the Creator",
+    "cover": "https://i.pinimg.com/originals/9b/a7/97/9ba79703abd820f2902ed1765127ad58.jpg",
+    "anno": "2015",
+    "genere": "Hip-Hop"
+  },
+   {
+    "titolo": "Bastard",
+    "artista": "Tyler the Creator",
+    "cover": "http://static1.squarespace.com/static/62408b329e45ef6f337433c6/t/63ff56bd33da8564bcaf197e/1677678269552/bastard+tyler+the+creator.jpeg?format=1500w",
+    "anno": "2011",
+    "genere": "Hip-Hop"
   }
 ]
